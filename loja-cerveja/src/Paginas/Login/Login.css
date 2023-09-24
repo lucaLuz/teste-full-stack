@@ -1,0 +1,53 @@
+.container {
+  justify-content: space-between;
+  padding: 4%;
+}
+
+.login-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 8px;
+  color: var(--branco);
+  font-weight: 500;
+}
+
+.preencher input{
+  background-color: var(--cinzaclaro);
+  border-radius: 10px;
+  box-shadow: inset 0px 10px 10px #0000004c;
+  height: 40px;
+  width: 225px;
+}
+
+.btn-entrar {
+  align-items: center;
+  background-color: var(--amarelo);
+  border-radius: 20px;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 46px;
+  color: var(--branco);
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.container input[type="text" i]{
+  padding: 10px;
+  font-weight: 700;
+  color: var(--fundo);
+  font-family: 'Nunito', sans-serif;
+}
+
+.container input[type="password"]{
+  padding: 10px;
+}

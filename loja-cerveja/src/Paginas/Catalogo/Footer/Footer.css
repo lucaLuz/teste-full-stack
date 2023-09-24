@@ -1,0 +1,47 @@
+footer {
+    background: var(--cinza);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+
+footer a {
+    color: var(--branco);
+}
+
+.footer__logo {
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.footer__copyright{
+    margin-bottom: 4rem;
+    color: var(--branco);
+}
+
+.footer__copyrigth small{ 
+    color: var(--branco);
+}
+
+/*============================================================ MEDIA QUERYES ================================================*/
+
+@media screen and (max-width:600px) {
+    .permalinks{
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .footer__socials{
+        margin-bottom: 2.6rem;
+    }
+}
